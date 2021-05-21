@@ -1,4 +1,5 @@
 import MainFrame.MainFrame;
+import icons.Play;
 
 import javax.swing.*;
 
@@ -7,6 +8,8 @@ public class Main {
         SwingUtilities.invokeLater(() -> {
 
             MainFrame mainFrame = new MainFrame();
+            Play c=new Play("background.mp3");
+            c.start();
 
         });
     }
